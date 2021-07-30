@@ -1,3 +1,4 @@
+import Contact from "./components/Contact ";
 import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Menu />
+      <Contact />
     </div>
   );
 }
