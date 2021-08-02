@@ -1,0 +1,18 @@
+.footer-wrap {
+  color: white;
+  text-align: center;
+  margin-top: 70px;
+  font-family: "Poppins", "Sans Serif";
+}
+
+@media (min-width: 425px) {
+  .footer-wrap {
+    font-size: 13px;
+  }
+}
+
+.footer-wrap a {
+  color: white;
+  font-weight: 800;
+}
+/*# sourceMappingURL=Footer.css.map */
