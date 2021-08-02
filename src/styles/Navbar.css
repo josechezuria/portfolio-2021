@@ -28,7 +28,7 @@ body {
   font-family: "Poppins", "Sans Serif";
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .links-wrap a {
     font-size: 12px;
   }

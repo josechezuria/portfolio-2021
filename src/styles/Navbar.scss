@@ -28,7 +28,7 @@ body {
     font-family: $regular;
 
 
-    @media (min-width: 320px) {
+    @media (max-width: 320px) {
         font-size: 12px;
     }
 }
