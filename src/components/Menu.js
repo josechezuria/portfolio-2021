@@ -13,13 +13,9 @@ function Menu() {
       <div className="iam">I felt kind of incomplete a year ago so a decided learn Web Developing to expand my knowledge about this industry and make better things.
       </div>
     </div>
-    <div className="wrap-btn">
-      <div className="design-btn">
-        <input type="submit" value="Graphic Design"></input>
-      </div>
-      <div className="programming-btn">
-        <input type="submit" value="Programming"></input>
-      </div>
+    <div className="wrap-btn__menu">
+    <button type="submit" className="design-btn">Designer</button>
+    <button type="submit" className="dev-btn">Developer</button>
     </div>
     </div>
   );
