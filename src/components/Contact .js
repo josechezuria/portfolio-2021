@@ -10,7 +10,7 @@ function Contact () {
             <input type="text" name="name" required className="name" placeholder="Name"/>
             <input type="email" name="email" required  className="email" placeholder="Email"/>
             <input type="message" name="message" required  className="message" placeholder="Message"/>
-        <div className="wrap-btn">
+        <div className="wrap-btn__contact">
                <button type="submit">Send</button>
         </div>
     </form>

@@ -42,7 +42,7 @@
     padding-left:20px;
     border-radius: 10px;
     font-family: $regular;
-    height: 30px;
+    height: 40px;
     background-color: black;
     color: white;
 
@@ -56,6 +56,11 @@
     height: 100px;
 }
 
+
+.wrap-btn__contact {
+    display: flex;
+    justify-content: center;
+}
 
 
 .wrap-btn button {
