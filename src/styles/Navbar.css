@@ -7,72 +7,64 @@ body {
 .navbar {
   width: 100%;
   height: 80px;
-  background-color: black;
-  margin-top: 3%;
+  background-color: red;
   position: fixed;
+  z-index: 12;
 }
 
 .logo {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   color: white;
+}
+
+.wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-@media (min-width: 320px) {
-  .logo {
-    width: 80px;
-    height: 80px;
-  }
-}
-
-@media (min-width: 375px) {
-  .logo {
-    margin-right: 5%;
-  }
-}
-
-@media (min-width: 425px) {
-  .logo {
-    margin-right: 22%;
-  }
-}
-
-@media (min-width: 768px) {
-  .logo {
-    margin-right: 55%;
-  }
-}
-
-.links-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+.links-wrapper {
+  margin-top: 30px;
   margin-right: 5%;
-  width: 95%;
 }
 
-.links-wrap a {
+.links-wrapper a {
   color: white;
   font-size: 15px;
-  margin-left: 2%;
-  margin-right: 5%;
   text-decoration: none;
   font-weight: 600;
   font-family: "Poppins", "Sans Serif";
 }
 
-@media (max-width: 320px) {
-  .links-wrap a {
-    font-size: 12px;
+@media (min-width: 320px) {
+  .links-wrapper a {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .links-wrapper a {
+    font-size: 15px;
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .links-wrapper a {
+    font-size: 15px;
+    margin-left: 120px;
+  }
+}
+
+@media (min-width: 1044px) {
+  .links-wrapper a {
+    font-size: 15px;
+    margin-left: 200px;
   }
 }
 /*# sourceMappingURL=Navbar.css.map */
