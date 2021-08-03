@@ -3,30 +3,20 @@ import '../styles/Contact.css'
 
 function Contact () {
     return (
-        <div className="contact-wrap">
-        <div className="contact-form">
-        <form>
-        <div className="contact-text">
-        <p>Feel free to contact me anytime</p>
+<div className="wrapper-contact">
+    <div className="contact-form">
+    <form action="https://formsubmit.co/echezuriart@gmail.com" method="POST">
+            <p>Feel free to contact anytime</p>
+            <input type="text" name="name" required className="name" placeholder="Name"/>
+            <input type="email" name="email" required  className="email" placeholder="Email"/>
+            <input type="message" name="message" required  className="message" placeholder="Message"/>
+        <div className="wrap-btn">
+               <button type="submit">Send</button>
         </div>
-            <div className="full-name">
-                <input type="text" name="fullname" id="fullname" required className="form-element" placeholder="Full Name">
-                </input>
-            </div>
-            <div className="email">
-                <input type="text" name="email" id="email" required className="form-element" placeholder="Your Email">
-                </input>
-            </div>
-            <div className="message">
-                <input type="text" name="message" id="message" required className="form-element" placeholder="Message">
-                </input>
-            </div>
-            <div className="submit-btn">
-                <input type="submit" value="Send Messsage"/>
-            </div>
-        </form> 
-        </div>
-        </div>
+    </form>
+    </div>
+</div>
+
     )
 }
 
