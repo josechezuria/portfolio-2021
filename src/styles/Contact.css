@@ -54,7 +54,7 @@ input {
   padding-left: 20px;
   border-radius: 10px;
   font-family: "Poppins", "Sans Serif";
-  height: 30px;
+  height: 40px;
   background-color: black;
   color: white;
 }
@@ -67,6 +67,15 @@ input {
 
 .message {
   height: 100px;
+}
+
+.wrap-btn__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 button {
