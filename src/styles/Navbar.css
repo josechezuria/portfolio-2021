@@ -2,6 +2,45 @@ body {
   background-color: black;
 }
 
+.logo {
+  width: 40px;
+  height: 40px;
+  color: white;
+  margin-right: 5%;
+  background-color: white;
+  border-radius: 150px;
+}
+
+@media (min-width: 375px) {
+  .logo {
+    margin-right: 10%;
+  }
+}
+
+@media (min-width: 425px) {
+  .logo {
+    margin-right: 22%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo {
+    margin-right: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo {
+    margin-right: 70%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .logo {
+    margin-right: 80%;
+  }
+}
+
 .navbar {
   padding: 0;
   width: 100%;
