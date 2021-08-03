@@ -78,7 +78,7 @@ input {
           justify-content: center;
 }
 
-button {
+.wrap-btn button {
   border: none;
   background-color: #EF476F;
   color: white;

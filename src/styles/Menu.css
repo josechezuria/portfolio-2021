@@ -129,6 +129,11 @@
   font-size: 15px;
 }
 
+.design-btn :hover {
+  background-color: #FFD166;
+  cursor: pointer;
+}
+
 .dev-btn {
   margin-left: 5%;
   border: none;
@@ -142,5 +147,10 @@
   font-weight: 600;
   text-align: center;
   font-size: 15px;
+}
+
+.dev-btn :hover {
+  background-color: #FFD166;
+  cursor: pointer;
 }
 /*# sourceMappingURL=Menu.css.map */
