@@ -14,8 +14,8 @@ function Menu() {
       </div>
     </div>
     <div className="wrap-btn__menu">
-    <button type="submit" className="design-btn">Designer</button>
-    <button type="submit" className="dev-btn">Developer</button>
+    <button className="design-btn">Designer</button>
+    <button className="dev-btn">Developer</button>
     </div>
     </div>
   );

@@ -63,7 +63,7 @@
 }
 
 
-.wrap-btn button {
+.wrap-btn__contact button {
     border: none;
     background-color: #EF476F;
     color: white;
@@ -75,5 +75,10 @@
     font-weight: 600;
     text-align: center;
     font-size: 15px;
+
+    :hover {
+        background-color: #FFD166;
+        cursor: pointer;
+    }
 }
 

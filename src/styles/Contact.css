@@ -78,7 +78,7 @@ input {
           justify-content: center;
 }
 
-.wrap-btn button {
+.wrap-btn__contact button {
   border: none;
   background-color: #EF476F;
   color: white;
@@ -90,5 +90,10 @@ input {
   font-weight: 600;
   text-align: center;
   font-size: 15px;
+}
+
+.wrap-btn__contact button :hover {
+  background-color: #FFD166;
+  cursor: pointer;
 }
 /*# sourceMappingURL=Contact.css.map */
