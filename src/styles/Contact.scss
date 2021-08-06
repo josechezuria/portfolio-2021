@@ -22,16 +22,16 @@
 }
 
 .contact-form p {
-    color: #06D6A0;
+    color: black;
     font-family: $regular;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     font-size: 15px;
 }
 
 
 
-  input {
+  input, textarea {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -53,6 +53,7 @@
 }
 
 .message {
+    padding-top: 12px;
     height: 100px;
 }
 
@@ -68,17 +69,17 @@
     background-color: #EF476F;
     color: white;
     border-radius:50px;
-    margin-top:10px;
     width: 140px;
     height: 40px;
     font-family: $regular;
     font-weight: 600;
     text-align: center;
     font-size: 15px;
+}
 
-    :hover {
-        background-color: #FFD166;
-        cursor: pointer;
-    }
+.wrap-btn__contact :hover {
+    background-color: #FFD166;
+    color: black;
+    cursor: pointer;
 }
 

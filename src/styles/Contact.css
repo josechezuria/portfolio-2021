@@ -29,14 +29,14 @@
 }
 
 .contact-form p {
-  color: #06D6A0;
+  color: black;
   font-family: "Poppins", "Sans Serif";
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
   font-size: 15px;
 }
 
-input {
+input, textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,12 +60,13 @@ input {
 }
 
 @media (min-width: 768px) {
-  input {
+  input, textarea {
     width: 320px;
   }
 }
 
 .message {
+  padding-top: 12px;
   height: 100px;
 }
 
@@ -83,7 +84,6 @@ input {
   background-color: #EF476F;
   color: white;
   border-radius: 50px;
-  margin-top: 10px;
   width: 140px;
   height: 40px;
   font-family: "Poppins", "Sans Serif";
@@ -92,8 +92,9 @@ input {
   font-size: 15px;
 }
 
-.wrap-btn__contact button :hover {
+.wrap-btn__contact :hover {
   background-color: #FFD166;
+  color: black;
   cursor: pointer;
 }
 /*# sourceMappingURL=Contact.css.map */

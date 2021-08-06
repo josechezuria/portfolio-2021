@@ -6,7 +6,7 @@ function Footer() {
         <footer className="footer-wrap">
                <p>© 2021 JOSE ECHEZURIA, ALL THE RIGHTS ARE RESERVED</p>
                <p>Website Development ~ Branding Design ~ Web Design</p>
-                <a className="freelance"href="freelancing">AVAILABLE FOR FREELANCING</a>
+                <a className="freelance "href="https://linktr.ee/josechezuria" target="_blank">AVAILABLE FOR FREELANCING</a>
         </footer>
     )
 }
