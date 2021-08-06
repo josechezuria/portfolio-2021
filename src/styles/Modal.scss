@@ -1,0 +1,63 @@
+@import '../variables/Variables.scss';
+
+
+
+
+
+.close-btn {
+    color:black;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-family: $regular;
+    background-color: #06D6A0;
+    border: none;
+    border-radius:60px ;
+    width: 40px;
+    height: 40px;
+}
+
+.btn-wrapper {
+display: flex;
+justify-content: center;
+margin:40px ;
+}
+
+.open-btn {
+  border: none;
+  width: 120px;
+  height: 35px;
+  background-color: #EF476F;
+  color: white;
+  font-size: 15px;
+  font-family: $regular;
+  font-weight: 600;
+  border-radius: 40px;
+}
+
+
+
+.modal-stl {
+    width: 100vw;
+    height: 100vh;
+    opacity:100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btn-close__wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}

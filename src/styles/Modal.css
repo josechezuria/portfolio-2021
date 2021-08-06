@@ -1,0 +1,73 @@
+.close-btn {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  font-family: "Poppins", "Sans Serif";
+  background-color: #06D6A0;
+  border: none;
+  border-radius: 60px;
+  width: 40px;
+  height: 40px;
+}
+
+.btn-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px;
+}
+
+.open-btn {
+  border: none;
+  width: 120px;
+  height: 35px;
+  background-color: #EF476F;
+  color: white;
+  font-size: 15px;
+  font-family: "Poppins", "Sans Serif";
+  font-weight: 600;
+  border-radius: 40px;
+}
+
+.modal-stl {
+  width: 100vw;
+  height: 100vh;
+  opacity: 100%;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.btn-close__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modal-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+/*# sourceMappingURL=Modal.css.map */
