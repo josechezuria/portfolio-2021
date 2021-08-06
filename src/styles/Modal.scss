@@ -23,6 +23,16 @@
     @media (min-width: 375px) {
       margin-top: 25%;
   }
+
+  @media (min-width: 768px) {
+    margin-top: 10%;
+}
+}
+
+.close-btn:hover {
+  background-color: #FFD166;
+  color: black;
+  cursor: pointer;
 }
 
 .btn-wrapper {
@@ -43,6 +53,11 @@ margin:40px ;
   border-radius: 40px;
 }
 
+.open-btn:hover {
+  background-color: #FFD166;
+  color: black;
+  cursor: pointer;
+}
 
 
 .modal-stl {

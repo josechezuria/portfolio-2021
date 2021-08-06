@@ -27,6 +27,18 @@
   }
 }
 
+@media (min-width: 768px) {
+  .close-btn {
+    margin-top: 10%;
+  }
+}
+
+.close-btn:hover {
+  background-color: #FFD166;
+  color: black;
+  cursor: pointer;
+}
+
 .btn-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,6 +59,12 @@
   font-family: "Poppins", "Sans Serif";
   font-weight: 600;
   border-radius: 40px;
+}
+
+.open-btn:hover {
+  background-color: #FFD166;
+  color: black;
+  cursor: pointer;
 }
 
 .modal-stl {
