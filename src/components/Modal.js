@@ -6,7 +6,7 @@ position: 'fixed',
 top: '50%',
 left: '50%',
 transform: 'translate(-50%, -50%)',
-backgroundColor: '#fff', 
+backgroundColor: 'rgba(0, 0, 0, .7)', 
 padding: '50px',
 zIndex: 1000
 }

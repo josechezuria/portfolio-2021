@@ -1,9 +1,10 @@
 .close-btn {
+  text-align: center;
   color: white;
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 20px;
-  margin-top: 40px;
+  margin-bottom: 15px;
+  margin-top: 10px;
   font-family: "Poppins", "Sans Serif";
   background-color: #06D6A0;
   border: none;
@@ -47,6 +48,12 @@
           flex-direction: column;
 }
 
+@media (min-height: 812px) {
+  .modal-stl {
+    margin-top: 30%;
+  }
+}
+
 .btn-close__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -65,8 +72,8 @@
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  color: black;
-  font-size: 20px;
+  color: white;
+  font-size: 14px;
   font-weight: 800;
 }
 /*# sourceMappingURL=Modal.css.map */

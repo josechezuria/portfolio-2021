@@ -5,11 +5,12 @@
 
 
 .close-btn {
+    text-align: center;
     color:white;
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 20px;
-    margin-top: 40px;
+    margin-bottom: 15px;
+    margin-top: 10px;
     font-family: $regular;
     background-color: #06D6A0;
     border: none;
@@ -45,6 +46,10 @@ margin:40px ;
     display: flex;
     flex-direction: column;
 
+    @media (min-height: 812px) {
+      margin-top: 30%;
+    }
+
 }
 
 .btn-close__wrap {
@@ -56,7 +61,7 @@ margin:40px ;
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: black;
-  font-size: 20px;
+  color:white;
+  font-size: 14px;
   font-weight: 800;
 }
