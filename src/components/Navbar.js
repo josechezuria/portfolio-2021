@@ -10,9 +10,9 @@ function Navbar() {
        <img src= { Logo } alt="logo"></img>
       </div>
       <div className="links-wrapper">
-        <a href="home">Home</a>  
-        <a href="aboutme">About</a> 
-        <a href="contact">Contact</a>
+        <a href="#home">Home</a>  
+        <a href="#aboutme">About</a> 
+        <a href="#contact">Contact</a>
       </div>
       </div>
     </div>
