@@ -5,7 +5,7 @@
 
 
 .close-btn {
-    color:black;
+    color:white;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -41,7 +41,6 @@ margin:40px ;
 .modal-stl {
     width: 100vw;
     height: 100vh;
-    opacity:100%;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -57,7 +56,7 @@ margin:40px ;
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: white;
+  color: black;
   font-size: 20px;
   font-weight: 800;
 }
