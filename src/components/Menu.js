@@ -13,10 +13,6 @@ function Menu() {
       <div className="iam">I felt kind of incomplete a year ago so a decided learn Web Developing to expand my knowledge about this industry and make better things.
       </div>
     </div>
-    <div className="wrap-btn__menu">
-    <button className="design-btn">Designer</button>
-    <button className="dev-btn">Developer</button>
-    </div>
     </div>
   );
 }
